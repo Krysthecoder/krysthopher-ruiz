@@ -3,7 +3,7 @@ import { HeroSection } from './components/HeroSection.tsx';
 
 function App() {
   return (
-    <div>
+    <div className="bg-slate-200">
       <HeroSection />
     </div>
   );

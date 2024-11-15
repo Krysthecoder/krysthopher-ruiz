@@ -1,114 +1,53 @@
-// Here is all the content of my website, links, files links, etc.
-interface subMenuItems {
-  name: string;
-  link: string;
+interface IPharsesArr {
+  phrase: string;
+  author: string;
 }
 
-interface aboutContent {
-  title: string;
-  content: string;
-}
-
-interface skillsContent {
-  title: string;
-  content: string[];
-  image: string;
-}
-
-interface projectsContent {
-  title: string;
-  technologies: string[];
-  image: string;
-  content: string;
-}
-
-interface utilsData {
-  devName: string;
-  mainLanguage: string;
-  subMenuItems: subMenuItems[];
-  aboutContent: aboutContent[];
-  skillsContent: skillsContent[];
-  certificatesContent: [];
-  projectsContent: projectsContent[];
-}
-
-export const utilsData: utilsData = {
-  devName: 'krysthopher ruiz',
-  mainLanguage: 'JavaScript TypeScript',
-  subMenuItems: [
-    { name: 'about', link: '#about' },
-    { name: 'skills', link: '#' },
-    { name: 'projects', link: '#' },
-    { name: 'services', link: '#' },
-    { name: 'certifications', link: '#' },
-    { name: 'download CV', link: '#' },
-    { name: 'contact Me', link: '#' }
-  ],
-  aboutContent: [
-    {
-      title: 'Who I am:',
-      content:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-    },
-    {
-      title: 'What I love:',
-      content:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-    },
-    {
-      title: 'What I am working on:',
-      content:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-    }
-  ],
-  skillsContent: [
-    {
-      title: 'Web Technologies',
-      content: [
-        'HTML5 & CSS3',
-        'JavaScript',
-        'TypeScript',
-        'Libraries',
-        'FrameWorks'
-      ],
-      image:
-        'https://res.cloudinary.com/dhkjclfht/image/upload/c_scale,w_auto/q_auto/f_webp,fl_awebp/v1727813764/cld-sample-5'
-    },
-    {
-      title: 'Web Technologies',
-      content: ['Skill 1', 'Skill 2', 'Skill 3'],
-      image:
-        'https://res.cloudinary.com/dhkjclfht/image/upload/c_scale,w_auto/q_auto/f_webp,fl_awebp/v1727813764/cld-sample-5'
-    },
-    {
-      title: 'Web Technologies',
-      content: ['Skill 1', 'Skill 2', 'Skill 3'],
-      image:
-        'https://res.cloudinary.com/dhkjclfht/image/upload/c_scale,w_auto/q_auto/f_webp,fl_awebp/v1727813764/cld-sample-5'
-    }
-  ],
-  certificatesContent: [],
-  projectsContent: [
-    {
-      title: 'Dentora Dental Clinic',
-      technologies: ['React', 'Tailwind CSS', 'Material UI', 'YUP', 'Formik'],
-      image:
-        'https://res.cloudinary.com/dhkjclfht/image/upload/c_scale,w_auto/q_auto/f_webp,fl_awebp/v1727813764/cld-sample-5',
-      content: 'Dental appointment management system.'
-    },
-    {
-      title: 'Dentora Dental Clinic',
-      technologies: ['React', 'Tailwind CSS', 'Material UI', 'YUP', 'Formik'],
-      image:
-        'https://res.cloudinary.com/dhkjclfht/image/upload/c_scale,w_auto/q_auto/f_webp,fl_awebp/v1727813764/cld-sample-5',
-      content: 'Lorem ipsum dolor sit amet.'
-    },
-    {
-      title: 'Dentora Dental Clinic',
-      technologies: ['React', 'Tailwind CSS', 'Material UI', 'YUP', 'Formik'],
-      image:
-        'https://res.cloudinary.com/dhkjclfht/image/upload/c_scale,w_auto/q_auto/f_webp,fl_awebp/v1727813764/cld-sample-5',
-      content: 'Lorem ipsum dolor sit amet.'
-    }
-  ]
-};
+export const phrasesArr: IPharsesArr[] = [
+  {
+    phrase:
+      'You have power over your mind, not outside events. Realize this, and you will find strength.',
+    author: 'Marcus Aurelius'
+  },
+  {
+    phrase:
+      'The happiness of your life depends upon the quality of your thoughts.',
+    author: 'Marcus Aurelius'
+  },
+  {
+    phrase:
+      'Waste no more time arguing about what a good man should be. Be one.',
+    author: 'Marcus Aurelius'
+  },
+  {
+    phrase:
+      'It is not death that a man should fear, but he should fear never beginning to live.',
+    author: 'Marcus Aurelius'
+  },
+  {
+    phrase: 'The best revenge is to be unlike him who performed the injury.',
+    author: 'Marcus Aurelius'
+  },
+  {
+    phrase:
+      'If it is not right, do not do it; if it is not true, do not say it.',
+    author: 'Marcus Aurelius'
+  },
+  {
+    phrase: 'You can commit injustice by doing nothing.',
+    author: 'Marcus Aurelius'
+  },
+  {
+    phrase: 'The soul becomes dyed with the color of its thoughts.',
+    author: 'Marcus Aurelius'
+  },
+  {
+    phrase: 'Our life is what our thoughts make it.',
+    author: 'Marcus Aurelius'
+  },
+  {
+    phrase:
+      'He who lives in harmony with himself lives in harmony with the universe.',
+    author: 'Marcus Aurelius'
+  }
+];
