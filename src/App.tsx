@@ -1,7 +1,12 @@
 import './App.css';
+import { HeroSection } from './components/HeroSection.tsx';
 
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <HeroSection />
+    </div>
+  );
 }
 
 export default App;
